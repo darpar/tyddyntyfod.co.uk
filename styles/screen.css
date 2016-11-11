@@ -1,0 +1,271 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	background-color: white;
+	color: #333333;
+}
+
+#container {
+	min-height: 100%;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	background: transparent url("../images/bg.gif") repeat-y 199px;
+	font-size: 116%;
+}
+
+* html #container {
+	height: 100%;
+}
+
+#header {
+	padding: 68px 0 12px 0;
+	background: transparent url("../images/header.jpg") no-repeat 220px 20px;
+}
+
+#section-home #header {
+	width: 205px;
+	background-image: none;
+}
+
+#section-about #header {
+	background-image: url("../images/header-about.jpg")
+}
+
+#section-amenities #header {
+	background-image: url("../images/header-amenities.jpg")
+}
+
+#section-location #header, #section-contact #header, #section-gallery #header {
+	background-image: none
+}
+
+#header h1 {
+	background: transparent url("../images/logo.gif") no-repeat scroll 0% 0%;
+	width: 180px;
+	height: 86px;
+	text-indent: -3333px;
+	border: 0;
+	margin: 0;
+}
+
+#header h1 a {
+	display: block;
+	width: 180px;
+	height: 86px;
+	text-decoration: none;
+	border: 0;
+}
+
+#navigation {
+	float: left;
+	width: 205px;
+	font-weight: bold;
+	color: #444;
+}
+
+#section-home h2 {
+	position: absolute;
+	top: -1000px;
+	height: 1px;
+	overflow: hidden;
+}
+
+#navigation li {
+	list-style-type: none;
+}
+
+#navigation li a {
+	display: block;
+	float: right;
+	clear: right;
+	padding: 5px 25px 5px 0;
+	text-align: right;
+	/*font-family: georgia, times, sans-serif;*/
+	text-decoration: none;
+	color: #333333;
+}
+
+#navigation li a:hover {
+  	color: #999;
+}
+
+#section-home #home,
+#section-about #about,
+#section-accommodation #accommodation,
+#section-amenities #amenities,
+#section-booking #booking,
+#section-location #location,
+#section-contact #contact,
+#section-gallery #gallery,
+#section-feedback #feedback {
+	background: transparent url("../images/pointer.gif") no-repeat right center;
+}
+
+#content {
+	float: right;
+	width: 740px;
+	background-color: transparent;
+}
+
+#section-home #content {
+	padding-top: 20px;
+}
+
+#section-location #content, #section-contact #content, #section-gallery #content {
+	position: relative;
+	top: -146px;
+}
+
+#content p,
+#content h3,
+#content dl {
+	margin: 20px 0;
+}
+
+#content dt {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#content dd {
+	margin: 0;
+	padding: 10px 0 10px 2em;
+}
+
+#content ul {
+	margin: 20px 0 20px 20px;
+}
+
+#content li {
+	margin: 5px 0;
+}
+
+#content ol li {
+	margin: 0 0 10px 0;
+}
+
+#section-contact #content {
+    background: transparent url("../images/bg_grad.gif") no-repeat 0 50px;
+}
+
+#content .left_column {
+	width: 212px;
+	float: left;
+	padding: 20px;
+	min-height: 310px;
+}
+
+#content .right_column {
+	width: 428px;
+	float: right;
+	padding: 20px;
+	min-height: 310px;
+}
+
+.slideshow {
+	width: 740px;
+	height: 416px;
+	overflow: hidden;
+}
+
+#map_canvas {
+	width: 468px;
+	height: 352px;
+	float: right;
+	margin: 0 0 20px 20px;
+}
+
+#contact_form {
+	width: 428px;
+}
+
+#contact_form fieldset {
+	border: none;
+}
+
+#contact_form ol {
+	list-style-type: none;
+}
+
+#contact_form textarea, #contact_form input {
+	width: 100%;
+    border: 1px solid black;
+}
+
+#contact_form input#send {
+	width: auto;
+}
+
+#contact_form span.required, #contact_form .reqnote {
+	display: none;
+}
+
+#contact_form span.error {
+	color: red;
+}
+
+.telephone
+{
+    display: block;
+    font-size: 189%;
+    font-weight: normal;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+#footer {
+	clear: both;
+	background-color: transparent;
+}
+
+/* special cases */
+#section-contact .left_column h3 {
+    text-align: right;
+}
+
+#visit-wales {
+    margin: 15px 0 0 90px;
+}
+
+/* thumbnailimages */
+a.thumb img {
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+a.thumb:hover img {
+    border-color: #333;
+    /*background-color: silver;*/
+}
+
+.left {
+    float: left;
+    margin-right: 1em;
+}
+
+.right {
+    float: right;
+    margin-left: 1em;
+}
+
+ul.gallery {
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 20px 0 !important;
+}
+
+ul.gallery li {
+    float: left;
+    padding: 5px;
+    margin: 0 !important;
+}
+
+ul.gallery li.first {
+    padding: 0 !important;
+}
+
